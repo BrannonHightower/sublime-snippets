@@ -1,7 +1,5 @@
-sublime-snippets
+LOA Developer Snippets
 ================
-
-Sublime Snippets Package for LOA Developers
 
 # Installation Instructions
 In order to install the package you need to first add the repository to Sublime, and then install the package.
@@ -17,6 +15,10 @@ The repository has now been added to your list of Package repos. Now you need to
 1. Type `sublime-snippets` and press Enter
 
 The package will now be installed. You may need to restart Sublime in order for it to pick up the new snippets.
+
+# Included Snippets
+
+Below is a list of snippets incluced with the package, and along with their usage and the trigger.
 
 ## addParam
 * **Usage**: Adds a parameter to a CFScript-based ColdFusion query
