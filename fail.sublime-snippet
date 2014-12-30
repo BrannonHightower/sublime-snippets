@@ -1,0 +1,11 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+fail( message: ${1:Message}, additionalInfo: "${2:Additional Informationa about the failure.}" );
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>fail</tabTrigger>
+  <description>fail method for TinyTest</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.cfscript.cfc, meta.function-call.cfscript, entity.name.function-call.cfscript</scope>
+</snippet>

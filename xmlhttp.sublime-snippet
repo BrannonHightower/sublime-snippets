@@ -1,0 +1,19 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+var ${1:HTTP Request Name} = New HTTP(
+	timeout = "25"
+	, throwonerror = "false"
+	, url = ${2:url}
+	, method = "get"
+).send().getPrefix();
+
+var ${3:variable response} = XMLParse(${1:HTTP Request Name}.fileContent);
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>xmlhttp</tabTrigger>
+  <description>XML HTTP Request</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.cfscript.cfc, storage.modifier.var.cfscript</scope>
+</snippet>

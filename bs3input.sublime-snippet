@@ -1,0 +1,15 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+<div class="form-group">
+	<label for="${1:elementName}">${2:LabelText}: </label>
+	<input type="text" class="form-control" name="${1:elementName}" value="${3:FormValue}" placeholder="${4:PlaceholderText}" />
+</div>
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>bs3-input</tabTrigger>
+  <description>Default input form group</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.cfm, meta.scope.between-output-tags.cfml, meta.tag.block.any.html, punctuation.definition.tag.begin.html</scope>
+</snippet>

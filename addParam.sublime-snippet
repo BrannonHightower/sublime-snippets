@@ -1,0 +1,11 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+.addParam( name: "${1:name}", cfsqltype: "cf_sql_${2:type}", value: ${3:value} );
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>.addParam</tabTrigger>
+  <description>Query Param for SQL Queries in cfscript</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.cfscript.cfc</scope>
+</snippet>

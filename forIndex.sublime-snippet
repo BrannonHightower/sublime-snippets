@@ -1,0 +1,14 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+for(var ${1:i} = ${2:from}; ${1:i} LTE ${3:to}; ${1:i}++ ){
+    writeoutput( ${1:i} );
+}
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>forIndex</tabTrigger>
+  <description>For loop with an index</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.cfscript.cfc, meta.operator.cfscript</scope>
+</snippet>

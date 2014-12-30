@@ -1,0 +1,61 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+component
+	extends = "TestCase"
+	output = false
+	hint = "I test the ${1:NameofThingTested}."
+	{
+
+	/**
+	* @hint I get called before every test method is executed.
+	* @output false
+	*/
+	public void function setup() {
+
+		// Abstract method...
+
+	}
+
+	/**
+	* @hint I get called after every test method has executed.
+	* @output false
+	*/
+	public void function teardown() {
+
+		// Abstract method...
+
+	}
+
+	/**
+	* @hint This method is run before the tests are run, and runs only once.
+	* @output false
+	*/
+	public void function beforeTests() {
+
+		// Runs ONCE before ANY the test methods have executed. Set up components that are being tested here.
+		// Example: Server.GW.Sites = CreateObject("component", "cfcs.Sites.SitesGateway").init( Server.DSNs );
+	}
+
+	/**
+	* @hint This test runs once after all tests are finished.
+	* @output false
+	*/
+	public void function afterTests() {
+
+		// Runs ONCE after ALL the test methods have executed.
+
+	}
+
+	public void function test${2:TestName}() {
+		${3:FirstTestCode};
+	}
+
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>newUT</tabTrigger>
+  <description>Creates a new blank unit test for TinyTest</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.cfscript.cfc, meta.operator.cfscript, meta.class.component.cfscript, entity.name.tag.operator.component.cfscript</scope>
+</snippet>

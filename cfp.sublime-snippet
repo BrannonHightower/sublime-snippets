@@ -1,0 +1,11 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+<cfparam name="${1:name}" default="${2:defaultValue}" />
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cfp</tabTrigger>
+  <description>Basic tag-based cfparam statement.</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.cfm, meta.tag.inline.cf.any.cfml, punctuation.definition.tag.begin.cfml</scope>
+</snippet>

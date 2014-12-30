@@ -1,0 +1,11 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+throw( type = "${1:type}", message = "${2:message}", detail = "${3:detail}", errorCode = "${4:error code}", extendedInfo = "${5:additional info}");
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>throw</tabTrigger>
+  <description>Full throw block for CFScript</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.cfscript.cfc, meta.operator.cfscript, keyword.control.operator.catch-exception.cfscript</scope>
+</snippet>

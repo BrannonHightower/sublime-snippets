@@ -1,0 +1,16 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+<!---
+*****************************************************************************************************************
+${1:Comment}
+*****************************************************************************************************************
+--->
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>bigcomment</tabTrigger>
+  <description>Creates a large comment block for dividing logic on a page.</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.cfm, comment.block.cfml, punctuation.definition.comment.cfml</scope>
+</snippet>

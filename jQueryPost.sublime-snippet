@@ -1,0 +1,22 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+\$.ajax({
+	type: '${1:POST}',
+	url: '/${2:webservices}/${3:CFCName}.cfc?method=${4:MethodName}&returnFormat=json',
+	async: ${5:asyncTrueorFalse},
+	data: {
+		${6:YourData}
+	},
+	dataType: 'json',
+	success: function( ${7:responseVariable}, request, settings ){
+		console.log( ${7:responseVariable} );
+	}
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>jqpost</tabTrigger>
+  <description>Ajax POST with jQuery</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.cfm, source.js.embedded.html, keyword.operator.js</scope>
+</snippet>

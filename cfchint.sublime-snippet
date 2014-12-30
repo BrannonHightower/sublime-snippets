@@ -1,0 +1,19 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+/**
+* @hint ${1:Description of the function}
+* @output ${2:True or False}
+* @${3:Arg1} ${4:Description of arg1}
+* @${5:Arg2} ${6:Description of arg2}
+* @${7:Arg3} ${8:Description of arg3}
+* @${9:Arg4} ${10:Description of arg4}
+* @${11:Arg5} ${12:Description of arg5}
+*/
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cfchint</tabTrigger>
+  <description>Hint block for functions in CFCs.</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.cfscript.cfc</scope>
+</snippet>
