@@ -102,7 +102,7 @@ Below is a list of snippets incluced with the package, and along with their usag
 
 ## throw
 * **Usage**: Full throw block for cfscript.
-* **Trigger*: `throw`
+* **Trigger**: `throw`
 
 ## xmlhttp
 * **Usage**: Create an HTTP request in cfscript using the `New HTTP()` object.
