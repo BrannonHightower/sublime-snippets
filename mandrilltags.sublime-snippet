@@ -7,7 +7,7 @@
 
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>mandrill-tags</tabTrigger>
+  <tabTrigger>mandrilltags</tabTrigger>
   <description>Mandrill tags for cfmail tag</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>text.html.cfm, meta.scope.between-mail-tags.cfml, meta.tag.block.cf.other.cfml, punctuation.definition.tag.begin.cfml</scope>
