@@ -3,6 +3,21 @@ sublime-snippets
 
 Sublime Snippets Package for LOA Developers
 
+# Installation Instructions
+In order to install the package you need to first add the repository to Sublime, and then install the package.
+
+1. Press `Cmd+Shift+P` to open the Command Palette
+1. Type `Add Respository` and press Enter
+1. In the input field, paste the URL `https://github.com/loadev/sublime-snippets` and press Enter
+
+The repository has now been added to your list of Package repos. Now you need to install the package.
+
+1. Press `Cmd+Shift+P` to open the Command Palette
+1. Type `Install Package` and press Enter
+1. Type `sublime-snippets` and press Enter
+
+The package will now be installed. You may need to restart Sublime in order for it to pick up the new snippets.
+
 ## addParam
 * **Usage**: Adds a parameter to a CFScript-based ColdFusion query
 * **Trigger**: `.addParam`
