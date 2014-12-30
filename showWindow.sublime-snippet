@@ -1,0 +1,11 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+showWindow( ${1:id}, ${2:title}, ${3:source}, ${4:center}, ${5:modal}, ${6:draggable}, ${7:height}, ${8:width}, ${9:autodestroy}, ${10:dontReturn} );
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>showWindow</tabTrigger>
+  <description>Shows a cfwindow.</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.cfm, source.js, meta.function.js, entity.name.function.js</scope>
+</snippet>

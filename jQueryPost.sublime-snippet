@@ -15,8 +15,8 @@
 });
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>jqpost</tabTrigger>
-  <description>Ajax POST with jQuery</description>
+  <tabTrigger>jqAjaxRequest</tabTrigger>
+  <description>Ajax Request with jQuery</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>text.html.cfm, source.js.embedded.html, keyword.operator.js</scope>
 </snippet>

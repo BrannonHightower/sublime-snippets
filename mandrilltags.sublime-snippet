@@ -1,0 +1,14 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+<cfmailparam name="X-MC-Tags" value="${1:tagname}" />
+<cfmailparam name="X-MC-Track" value="opens,clicks" />
+<cfmailparam name="X-MC-Autotext" value="${2:AutotextTrueorFalse}" />
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>mandrill-tags</tabTrigger>
+  <description>Mandrill tags for cfmail tag</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.cfm, meta.scope.between-mail-tags.cfml, meta.tag.block.cf.other.cfml, punctuation.definition.tag.begin.cfml</scope>
+</snippet>

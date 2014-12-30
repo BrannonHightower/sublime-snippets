@@ -1,0 +1,19 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+\$.ajaxSetup({
+    dataFilter: function(data, type){
+    	if( data.substring( 0, 2 ) == '//' ) {
+	        return data.substring(2, data.length);
+    	} else {
+    		return data;
+    	}
+    }
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ajaxSetup</tabTrigger>
+  <description>AJAX Setup for cleaning up CF JSON Serialization</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.basic, meta.tag.script.html, source.js.embedded.html, keyword.operator.js, source.js</scope>
+</snippet>

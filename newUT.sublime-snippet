@@ -54,7 +54,7 @@ component
 }
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>newUT</tabTrigger>
+  <tabTrigger>newUnitTest</tabTrigger>
   <description>Creates a new blank unit test for TinyTest</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.cfscript.cfc, meta.operator.cfscript, meta.class.component.cfscript, entity.name.tag.operator.component.cfscript</scope>
