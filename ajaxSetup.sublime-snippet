@@ -15,5 +15,5 @@
   <tabTrigger>ajaxSetup</tabTrigger>
   <description>AJAX Setup for cleaning up CF JSON Serialization</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.basic, meta.tag.script.html, source.js.embedded.html, keyword.operator.js, source.js</scope>
+  <scope>text.html.cfm, text.html.basic, meta.tag.script.html, source.js.embedded.html, keyword.operator.js, source.js</scope>
 </snippet>
