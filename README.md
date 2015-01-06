@@ -68,6 +68,9 @@ Below is a list of snippets incluced with the package, and along with their usag
 * **Usage**: Basic `<cfqueryparam />` tag
 * **Trigger**: `qp`
 
+## consoleLog
+* **Usage**: Adds a `console.log` statement, with placeholders for label and variable.
+* **Trigger**: `clog`
 ## error
 * **Usage**: Used to set an error on an Error Handler in default objects.
 * **Trigger**: `setError`
