@@ -18,5 +18,5 @@
   <tabTrigger>jqAjaxRequest</tabTrigger>
   <description>Ajax Request with jQuery</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.cfm, source.js.embedded.html, keyword.operator.js, text.html.cfm, text.html.basic, meta.tag.script.html</scope>
+  <scope>text.html.cfm, source.js.embedded.html, keyword.operator.js, source.js, text.html.cfm, text.html.basic, meta.tag.script.html</scope>
 </snippet>
