@@ -1,7 +1,7 @@
 <snippet>
   <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
-assertTrue( value: ${1:Value to Test}, additionInfo: "${2:Message if ${1:Value to Test} is not true}" );
+assertTrue( value: ${1:Value to Test}, additionalInfo: "${2:Message if ${1:Value to Test} is not true}" );
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>assertTrue</tabTrigger>
