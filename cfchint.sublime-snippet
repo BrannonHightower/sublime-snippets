@@ -15,5 +15,5 @@
   <tabTrigger>cfchint</tabTrigger>
   <description>Hint block for functions in CFCs.</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.cfscript.cfc</scope>
+  <scope>text.html.cfml</scope>
 </snippet>

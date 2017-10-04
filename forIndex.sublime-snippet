@@ -10,5 +10,5 @@ for(var ${1:i} = ${2:from}; ${1:i} LTE ${3:to}; ${1:i}++ ){
   <tabTrigger>forIndex</tabTrigger>
   <description>For loop with an index</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.cfscript.cfc, meta.operator.cfscript</scope>
+  <scope>text.html.cfml</scope>
 </snippet>

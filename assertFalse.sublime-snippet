@@ -7,5 +7,5 @@ assertFalse( value: ${1:Value to Test}, additionalInfo: "${2:Message if ${1:Valu
   <tabTrigger>assertFalse</tabTrigger>
   <description>assertFalse method for TinyTest</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.cfscript.cfc, meta.function-call.cfscript, entity.name.function-call.cfscript</scope>
+  <scope>text.html.cfml</scope>
 </snippet>

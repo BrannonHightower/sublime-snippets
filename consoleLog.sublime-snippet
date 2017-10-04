@@ -7,5 +7,5 @@ console.log( '${1:label}', ${2:var} );
   <tabTrigger>clog</tabTrigger>
   <description>console.log statement with label.</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.cfm, source.js.embedded.html, entity.name.type.object.js.firebug</scope>
+  <!-- <scope>text.html.cfm, source.js.embedded.html, entity.name.type.object.js.firebug</scope> -->
 </snippet>

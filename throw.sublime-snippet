@@ -7,5 +7,5 @@ throw( type = "${1:type}", message = "${2:message}", detail = "${3:detail}", err
   <tabTrigger>throw</tabTrigger>
   <description>Full throw block for CFScript</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.cfscript.cfc, meta.operator.cfscript, keyword.control.operator.catch-exception.cfscript</scope>
+  <scope>text.html.cfml</scope>
 </snippet>

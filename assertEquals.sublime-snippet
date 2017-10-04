@@ -7,5 +7,5 @@ assertEquals( valueA: ${1:FirstValue}, valueB: ${2:SecondValue}, additionalInfo:
   <tabTrigger>assertEquals</tabTrigger>
   <description>assertEquals method for TinyTest</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.cfscript.cfc, meta.function-call.cfscript, entity.name.function-call.cfscript</scope>
+  <scope>text.html.cfml</scope>
 </snippet>

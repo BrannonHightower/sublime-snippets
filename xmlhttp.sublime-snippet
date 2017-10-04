@@ -15,5 +15,5 @@ var ${3:variable response} = XMLParse(${1:HTTP Request Name}.fileContent);
   <tabTrigger>xmlhttp</tabTrigger>
   <description>XML HTTP Request</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.cfscript.cfc, storage.modifier.var.cfscript</scope>
+  <!-- <scope>source.cfscript.cfc, storage.modifier.var.cfscript</scope> -->
 </snippet>

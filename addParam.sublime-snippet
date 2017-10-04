@@ -7,5 +7,5 @@
   <tabTrigger>.addParam</tabTrigger>
   <description>Query Param for SQL Queries in cfscript</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.cfscript.cfc</scope>
+  <scope>text.html.cfml</scope>
 </snippet>

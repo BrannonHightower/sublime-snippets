@@ -12,5 +12,5 @@ for( ${1:arrayItem} in ${2:array} ){
   <tabTrigger>forArray</tabTrigger>
   <description>Creates a for loop in cfscript for looping over an array.</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.cfscript.cfc, meta.operator.cfscript, source.cfscript.cfm</scope>
+  <scope>text.html.cfml</scope>
 </snippet>

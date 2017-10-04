@@ -7,5 +7,5 @@ showWindow( ${1:id}, ${2:title}, ${3:source}, ${4:center}, ${5:modal}, ${6:dragg
   <tabTrigger>showWindow</tabTrigger>
   <description>Shows a cfwindow.</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.cfm, source.js, meta.function.js, entity.name.function.js</scope>
+  <!-- <scope>text.html.cfml, source.js, meta.function.js, entity.name.function.js</scope> -->
 </snippet>
